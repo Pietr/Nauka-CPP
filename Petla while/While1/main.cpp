@@ -18,7 +18,7 @@ int main()
     cin >> godziny;
     cout << "Podaj swoja stawke godzinowa: ";
     cin >> stawka;
-    while ( kasa < 1000000)
+    while ( kasa < 1000000 )
     {
         kasa = kasa+(godziny*stawka);
         dni++;
